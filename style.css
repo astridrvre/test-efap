@@ -1,37 +1,62 @@
-body {
-  background-color: rgb(234, 235, 235);
-  margin: 0;
+h1{
+    text-align: center;
+    font-family: "Domine", serif;
 }
+
+h3{
+    text-align:left
+    font-family: "Domine", serif;
+}
+
+p{
+    font-family: "Domine", serif;
+}
+
+p1{
+    font-family: "Domine", serif;
+}
+
+img {
+    display: block;
+    margin: auto;
+  }
+table.table1 tr,
+table.table1 td{
+    width: 500px;
+}
+
+table.table2 {margin-left: 50px;}
+table.table2 td{
+    text-align: left;
+}
+
 
 .navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: white;
-  padding: 0 24px
-}
+    background-color: #2152cd;
+    overflow: hidden;
+  }
+  
+ 
+  .navbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  
+  .navbar a:hover {
+    background-color: #2e569b;
+    color: rgb(0, 0, 0);
+  }
+  
+  
+  .navbar a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
 
-.logo {
-  width: 180px;
-}
 
-.link {
-  text-decoration: none;
-  font-size: 24px;
-  background-color: purple;
-  color: white;
-  padding: 16px 32px;
-  border-radius: 4px;
-}
-
-.links {
-  display: flex;
-  gap: 24px;
-}
-
-.maps, .video {
-  display: flex;
-  justify-content: center;
-  margin-top: 24px;
-}
-
+  
